@@ -25,7 +25,9 @@ run kubectl cli
 `kubectl create ns verona`
 
 2. apply deployment and service
+3. 
 `kubectl apply -f deployment.yaml`
+
 `kubectl apply -f service.yaml`
  
 Docker image references 
@@ -44,14 +46,19 @@ x86_64:
 install fluentd
 
 `kubectl apply -f fluentd-config-map.yaml`
+
 `kubectl apply -f fluentd-dapr-with-rbac.yaml`
 
 install promotheus and grafana
 
 `helm repo add prometheus-community https://prometheus-community.github.io/helm-charts`
+
 `kubectl create ns monitoring`
+
 `helm install monitoring prometheus-community/kube-prometheus-stack --namespace=monitoring`
+
 `helm upgrade monitoring prometheus-community/kube-prometheus-stack --namespace=monitoring --values values.yaml`
+
 
 ## Diagram
 https://github.com/Veronaz/project_5_verona/blob/main/project_5_verona.drawio

@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2023-07-10T20:12:37.251Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dxbIsUFbh2WM7BHQUAmu" version="21.6.1" type="github">
+  <diagram name="Page-1" id="1AczGnW73k5XlJmuj2Ov">
+    <mxGraphModel dx="984" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="67bZfnRdbJqTuJRju34Y-14" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="14.25" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-9" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="14.25" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="410" y="39.25" width="63.55" height="52.11" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bZfnRdbJqTuJRju34Y-3" target="67bZfnRdbJqTuJRju34Y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-19" value="host" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67bZfnRdbJqTuJRju34Y-18">
+          <mxGeometry x="-0.1028" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://1000logos.net/wp-content/uploads/2020/08/Nginx-Logo-500x313.png;" vertex="1" parent="1">
+          <mxGeometry x="210" y="61.53" width="68.24" height="42.72" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.datocms-assets.com/45470/1631110818-logo-react-js.png;clipPath=inset(0.76% 22.67% 0% 22.33%);" vertex="1" parent="1">
+          <mxGeometry x="60" y="42.89" width="67.51918158567774" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-10" value="Dockerized" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="44.25" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-11" value="x86_64" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="59.55" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-12" value="ARM 64" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="84.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-13" value="&lt;b&gt;dockerhub images&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="27.89" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-15" value="&lt;b&gt;Webapp&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="18.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="https://hub.docker.com/repository/docker&#xa;/veronaz/project_5_verona" link="link to dockerhub repo" id="67bZfnRdbJqTuJRju34Y-16">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="410" y="104.25" width="250" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-20" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eks_cloud;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-22" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr_cluster;fillColor=#F58534;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="152.24999999999997" y="300" width="55.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-23" value="&lt;b&gt;AWS EKS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="7.52" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-24" value="&lt;b&gt;EKS Cluster&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-25" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machines_Classic.svg;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="350" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/698678-icon-70-document-code-128.png" vertex="1" parent="1">
+          <mxGeometry x="450" y="363" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="67bZfnRdbJqTuJRju34Y-28" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/ssl-certificate-128.png" vertex="1" parent="1">
+          <mxGeometry x="276" y="500" width="128" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

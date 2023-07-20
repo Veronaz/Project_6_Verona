@@ -78,11 +78,14 @@ x86_64:
    
 2. login Grafana
    Go to 'https://localhost:3000'
+
    Username: admin
+
    Password: prom-operator
+
    (instruction: go into k9s grafana pod and use `base64 -d` decrypt the credentials in the file)
    
-3. go to dashboards in Grafana
+4. go to dashboards in Grafana
 
 ## Diagram
 https://github.com/Veronaz/project_5_verona/blob/main/project_5_verona.drawio

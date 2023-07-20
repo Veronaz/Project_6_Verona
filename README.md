@@ -1,6 +1,6 @@
-# Project 5 Kubernetes
+# Project 6 Observerbility
 
-Github public repo url: https://github.com/Veronaz/project_5_verona
+Github public repo url: https://github.com/Veronaz/Project_6_Verona
 
 Dockerhub public repo url: https://hub.docker.com/repository/docker/veronaz/project_5_verona
 
@@ -8,7 +8,7 @@ Note: Dockerhub image created from edited docker-react app; Pub repo link: https
 
 ## Prerequisite
 
-### Step 1
+### Step 1 
 Install docker cmd
 
 ### Step 2
@@ -39,6 +39,19 @@ ARM64:
 x86_64:
 
 `Docker run -p 8080:80 veronaz/project_5_verona:amdlatest`
+
+### Step 5
+install fluentd
+
+`kubectl apply -f fluentd-config-map.yaml`
+`kubectl apply -f fluentd-dapr-with-rbac.yaml`
+
+install promotheus and grafana
+
+`helm repo add prometheus-community https://prometheus-community.github.io/helm-charts`
+`kubectl create ns monitoring`
+`helm install monitoring prometheus-community/kube-prometheus-stack --namespace=monitoring`
+`helm upgrade monitoring prometheus-community/kube-prometheus-stack --namespace=monitoring --values values.yaml`
 
 ## Diagram
 https://github.com/Veronaz/project_5_verona/blob/main/project_5_verona.drawio
